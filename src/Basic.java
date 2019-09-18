@@ -24,8 +24,6 @@ public class Basic {
 		then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
 		body("_links[8].href",equalTo("http://cms-services-qa.dev.cf.private.springer.com/07647920-d667-4de1-bfde-f3c385645acc/enrich_article")).and().
 		header("Content-Type","applications/json;charset=UTF-8");
-		
-
 	}
 
 }
